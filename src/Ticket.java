@@ -35,7 +35,7 @@ public class Ticket {
 
   public String getId() { return id; }
   public String getConcertHall() { return concertHall; }
-  public int getEventCode() { return eventCode; }
+  public int getEventCode() { return eventCode; } // Added getEventCode
   public long getTime() { return time; }
   public boolean getIsPromo() { return isPromo; }
   public char getStadiumSector() { return stadiumSector; }
